@@ -1,21 +1,8 @@
-.swiper {
-  width: 100%;
-  padding-bottom: 50px;
-}
 
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 300px;
-}
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-}
+
 .serviceimg{
-  width: 50%;
+  width: 30%;
 }
 .serviceweightlossimg{
   width: 72%;
@@ -28,4 +15,9 @@
 
 .servicesheading{
   white-space: nowrap;
+  color: #000;
+}
+
+.paragraphheading{
+  color: #027566;
 }

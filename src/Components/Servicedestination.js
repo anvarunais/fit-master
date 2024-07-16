@@ -1,144 +1,88 @@
 import "./Servicedestination.css";
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Imageone from "../assets/service-png-1.jpg";
-import Imagetwo from "../assets/service-png-2.jpg";
-import Imagethree from "../assets/service-png-3.jpg";
-import Imagefour from "../assets/service-png-4.jpg";
-import Imagefive from "../assets/service-png-5.jpg";
-import Imagesix from "../assets/service-png-6.png";
+import Imageone from "../assets/diet-1.png";
+import Imagetwo from "../assets/diet-2.png";
+import Imagethree from "../assets/diet-3.png";
+import Imagefour from "../assets/diet-4.png";
+import Imagefive from "../assets/diet-5.png";
+import Imagesix from "../assets/diet-6.png";
 
 const Servicedestination = () => {
   return (
     <>
       <div>
         <div className="container servicecontainer1 mb-5">
-          <h1 className="servicesheading mb-5">Features of Our Diet Plans</h1>
-          <div className="row">
-            <div className="col-md-4 col-sm-12">
-              <Card
-                style={{
-                  marginBottom: "20px",
-                  height: "300px",
-                  alignItems: "center",
-                }}
-              >
-                <Card.Img
-                  className="serviceweightlossimg"
-                  variant="top"
-                  src={Imageone}
-                />
-                <Card.Body>
-                  <Card.Title>WEIGHT LOSS DIETS</Card.Title>
-                  <Card.Text style={{ color: "#5a9f53" }}>
-                    Safe and effective plans to shed pounds.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
+          <h1 className="servicesheading mb-5 text-center">
+            Weight management
+          </h1>
+          <div className="row justify-content-center">
+            <div className="col-md-4 col-sm-6 text-center">
+              <img
+                className="serviceimg"
+                src={Imagefive}
+                alt="Gluten-Free Diets"
+              />
+              <p className="paragraphheading">
+                <b>CERTIFIED TRAINERS</b>
+              </p>
             </div>
 
-            <div className="col-md-4 col-sm-12 servicecolnm">
-              <Card
-                style={{
-                  marginBottom: "20px",
-                  height: "300px",
-                  alignItems: "center",
-                }}
-              >
-                <Card.Img className="serviceimg" variant="top" src={Imagetwo} />
-                <Card.Body>
-                  <Card.Title>MUSCLE GAIN DIETS</Card.Title>
-                  <Card.Text style={{ color: "#5a9f53" }}>
-                    Nutrient-rich plans to build muscle mass
-                  </Card.Text>
-                </Card.Body>
-              </Card>
+            <div className="col-md-4 col-sm-6 text-center">
+              <img
+                className="serviceimg"
+                src={Imagetwo}
+                alt="Gluten-Free Diets"
+              />
+              <p className="paragraphheading">
+                <b>ONGOING SUPPORT</b>
+              </p>
             </div>
 
-            <div className="col-md-4 col-sm-12">
-              <Card
-                style={{
-                  marginBottom: "20px",
-                  height: "300px",
-                  alignItems: "center",
-                }}
-              >
-                <Card.Img
-                  className="serviceimg"
-                  variant="top"
-                  src={Imagethree}
-                />
-                <Card.Body>
-                  <Card.Title>HEALTH IMPROVEMENT DIETS</Card.Title>
-                  <Card.Text style={{ color: "#5a9f53" }}>
-                    Balanced diets for overall wellness.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
+            <div className="col-md-4 col-sm-6 text-center">
+              <img
+                className="serviceimg"
+                src={Imagefive}
+                alt="Gluten-Free Diets"
+              />
+              <p className="paragraphheading">
+                <b>SATISFACTION GUARANTEED</b>
+              </p>
             </div>
           </div>
 
-          <div className="row">
-            <div className="col-md-4 col-sm-12">
-              <Card
-                style={{
-                  marginBottom: "20px",
-                  height: "300px",
-                  alignItems: "center",
-                }}
-              >
-                <Card.Img
-                  className="serviceimg"
-                  variant="top"
-                  src={Imagefour}
-                />
-                <Card.Body>
-                  <Card.Title>VEGETARIAN & VEGAN DIETS</Card.Title>
-                  <Card.Text style={{ color: "#5a9f53" }}>
-                    Plant-based plans for a healthy lifestyle.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
+          <div className="row justify-content-center mt-3">
+            <div className="col-md-4 col-sm-6 text-center">
+              <img
+                className="serviceimg"
+                src={Imagefive}
+                alt="Gluten-Free Diets"
+              />
+              <p className="paragraphheading">
+                <b>CUSTOMIZED DIET PLANS</b>
+              </p>
             </div>
 
-            <div className="col-md-4 col-sm-12">
-              <Card
-                style={{
-                  marginBottom: "20px",
-                  height: "300px",
-                  alignItems: "center",
-                }}
-              >
-                <Card.Img
-                  className="serviceimg"
-                  variant="top"
-                  src={Imagefive}
-                />
-                <Card.Body>
-                  <Card.Title>GLUTEN-FREE DIETS</Card.Title>
-                  <Card.Text style={{ color: "#5a9f53" }}>
-                    Safe and delicious options for gluten intolerance.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
+            <div className="col-md-4 col-sm-6 text-center">
+              <img
+                className="serviceimg"
+                src={Imagefive}
+                alt="Gluten-Free Diets"
+              />
+              <p className="paragraphheading">
+                <b>CERTIFIED NUTRITIONISTS</b>
+              </p>
             </div>
 
-            <div className="col-md-4 col-sm-12">
-              <Card
-                style={{
-                  marginBottom: "10px",
-                  height: "300px",
-                  alignItems: "center",
-                }}
-              >
-                <Card.Img className="serviceimg" variant="top" src={Imagesix} />
-                <Card.Body>
-                  <Card.Title>KETO DIETS</Card.Title>
-                  <Card.Text style={{ color: "#5a9f53" }}>
-                    Low-carb, high-fat plans to accelerate fat loss.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
+            <div className="col-md-4 col-sm-6 text-center">
+              <img
+                className="serviceimg"
+                src={Imagefive}
+                alt="Gluten-Free Diets"
+              />
+              <p className="paragraphheading">
+                <b>GLUTEN-FREE DIETS</b>
+              </p>
             </div>
           </div>
         </div>

@@ -1,30 +1,36 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Imagefive from "../assets//ugdiet-logo.png";
+import Imagefive from "../assets/drink-img.png";
 import "./Homesecound.css";
 
 function Homesecound() {
   return (
-    <div>
+    <div className="bgcolor d-flex align-items-center justify-content-center vh-100">
       <div className="container">
         <div className="row py-5">
           <div className="col-md-6 col-sm-12">
             <img src={Imagefive} alt="/" className="Homesecoundimg" />
           </div>
-          <div className="col-md-6 col-sm-12">
-            <h4 className="Homesecoundheading">UG DIET COMPANY</h4>
-            <p className="Homesecoundparagraph mt-5">
-              Achieve your health goals with UG Diet Company. Our expert advice,
-              personalized diet plans, and ongoing support ensure you get the
-              results you desire. Join our community of satisfied clients today!
+          <div className="col-md-6 col-sm-12 mt-5">
+            <h4 className="homesecoundheading">
+              Start Your Healthy journey Today!
+            </h4>
+            <p className="homesecoundparagraph mt-5">
+              Your health is our priority. Talk to one of our experts and get
+              the best plan.
               <br />
-              Start your journey towards better health with our 1-month package
-              for just ₹1000. Experience the UG Diet difference now!
+              Chat with us on WhatAapp for customized diet plans and valuable
+              health .
             </p>
 
-            <a href="https://wa.me/917025040484?text= Hello I Saw UG DIET Website, i'm  interested to join with you!" target="_blank">
-            <button className="homebtn">Join Us</button>
-          </a>
+            <div>
+              <a
+                href="https://wa.me/917025040484?text= Hi! I was browsing the website blog and wanted to know more about FIT MASTER"
+                target="_blank"
+              >
+                <button className="homeimgbtn2">Chat Now</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>

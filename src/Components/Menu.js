@@ -1,27 +1,27 @@
 export const Menu = [
   {
-    title: "Home",
+    title: "HOME",
     url: "/",
     cName: "nav-links",
     // icon: "fa-solid fa-house",
   },
 
   {
-    title: "About",
+    title: "ABOUT",
     url: "/about",
     cName: "nav-links",
     // icon: "fa-solid fa-circle-info",
   },
 
   {
-    title: "Service",
+    title: "SERVICE",
     url: "/service",
     cName: "nav-links",
     // icon: "fa-solid fa-briefcase",
   },
 
   {
-    title: "Contact",
+    title: "CONTACT",
     url: "/contact",
     cName: "nav-links",
     // icon: "fa-solid fa-address-book",

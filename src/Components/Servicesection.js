@@ -5,40 +5,84 @@ function Servicesection() {
   return (
     <div>
       <div className="container mt-5 mb-5">
-        <h1 className="mb-2">Our Services</h1>
+        <h1 className="mb-2">Importance of A Balanced Diet</h1>
         <>
           <ul className="ulstyle">
             <p className="paragrph">
               <li>
-                <span className="spanstyle2">Customized Diet Plans:</span>{" "}
-                Personalized diet plans tailored to your specific goals and
-                preferences.{" "}
+                <span className="spanstyle2">Nutrient Adequacy:</span>A balanced
+                diet ensures that your body receives all essential nutrients,
+                including vitamins, minerals, proteins, carbohydrates, fats, and
+                fiber. These nutrients are necessary for various bodily
+                functions, such as growth, repair, and maintaining optimal organ
+                function.
               </li>
             </p>
             <p className="paragrph">
               <li>
-                <span className="spanstyle2">Expert Nutrition Advice:</span>{" "}
-                Up-to-date research and advice to ensure your diet is effective
-                and sustainable.
+                <span className="spanstyle2">Healthy Weight Management:</span>{" "}
+                Eating a balanced diet helps in managing body weight
+                effectively. It promotes the consumption of nutrient-dense foods
+                while limiting empty calories from sugary drinks, snacks, and
+                processed foods.
               </li>
             </p>
             <p className="paragrph">
               <li>
-                <span className="spanstyle2">Ongoing Support:</span> Continuous
-                motivation and support to help you stay on track
+                <span className="spanstyle2">Energy and Vitality:</span>{" "}
+                Consuming a variety of foods from different food groups provides
+                the body with the energy it needs throughout the day. Balanced
+                meals keep blood sugar levels stable and sustain energy levels,
+                preventing energy dips and fatigue.
               </li>
             </p>
             <p className="paragrph">
               <li>
-                <span className="spanstyle2">100% Satisfaction Guarantee:</span>{" "}
-                If you don’t see results after 1 month, we’ll give you a full
-                refund. Our 100% cash back policy applies if there are no
-                changes.
+                <span className="spanstyle2">Improved Digestive Health:</span> A
+                balanced diet that includes fiber-rich foods such as fruits,
+                vegetables, whole grains, and legumes supports digestive health.
+                Fiber promotes regular bowel movements, prevents constipation,
+                and maintains a healthy gut microbiome, which is essential for
+                overall well-being.
               </li>
             </p>
           </ul>
         </>
       </div>
+      {/* <div className="container mt-5 mb-5">
+        <h1>Foods to Avoid For a Healthy Balanced Diet</h1>
+        <>
+          <ul className="ulstyle">
+            <p className="paragrph">
+              <li>
+                <span className="spanstyle2">Red meat</span>
+              </li>
+            </p>
+            <p className="paragrph">
+              <li>
+                <span className="spanstyle2">
+                  Refined grains
+                </span>
+              </li>
+            </p>
+            <p className="paragrph">
+              <li>
+                <span className="spanstyle2">Trans fat, butter, cheese</span>
+              </li>
+            </p>
+            <p className="paragrph">
+              <li>
+                <span className="spanstyle2">Added sugar</span>
+              </li>
+            </p>
+            <p className="paragrph">
+              <li>
+                <span className="spanstyle2">Pastry</span>
+              </li>
+            </p>
+          </ul>
+        </>
+      </div> */}
     </div>
   );
 }

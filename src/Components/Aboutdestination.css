@@ -33,7 +33,7 @@
 }
 
 .column2heading {
-  color: #5a9f53;
+  color: #027566;
   padding-top: 10px;
 }
 
@@ -43,5 +43,8 @@
 }
 
 .aboutcontainer1{
-  margin-top:15%;
+  margin-top:5%;
+}
+.spanaboutt{
+  color: #027566;
 }

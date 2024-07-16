@@ -1,88 +1,129 @@
 import "./Homepage.css";
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import Homeimgone from "../assets/home-img-1.jpeg";
-import Homeimgtwo from "../assets/home-img-2.jpeg";
-import Homeimgthree from "../assets/home-img-3.jpeg";
-import Homeimgfour from "../assets/home-img-4.jpeg";
-import Homeimgfive from "../assets/home-img-5.jpeg";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import HomeImg from "../assets/fitmaster-logo.png";
+import Wtspimg from "../assets/whatsapp-logo.png";
+
 
 function Homepage() {
   return (
     <>
-      <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <img className="sliderimage" src={Homeimgone} />
-          <div className="title" data-swiper-parallax="-300">
-            <h1>
-              Welcome to <br />
-              UG Diet
-            </h1>
+      <section id="demos-home" class="main-carousel-one">
+        <div className="mt-5"></div>
+        <div class="row">
+          <div class="large-12 columns">
+            <div
+              class="owl-carousel owl-theme owl-loaded owl-drag"
+              id="my-carousel-one"
+            >
+              <div class="owl-stage-outer">
+                <div class="owl-stage">
+                  <div class="owl-item active">
+                    <div class="item">
+                      <div class="row">
+                        <div className="col-lg-6 col-md-6 col-sm-12  order-2 order-md-1 col-xs-12 column">
+                          <h1 className="homeheading2 mt-3">FiT Master</h1>
+                          <h2 className="homeheading1 mt-3">
+                            Get Healthy with Expert Help
+                          </h2>
+                          <p className="homeparagraph mt-3">
+                            Start for better health with our 1-month package for
+                            just <span className="homespann">₹1000.</span>{" "}
+                            Experience the FIT MASTER difference now! Experience
+                            the <span className="homespann">Fit Master </span>
+                            difference now!
+                          </p>
+                          <div className="mt-3 mb-3">
+                            <a
+                              href="https://wa.me/917025040484?text= Hi! I was browsing the website blog and wanted to know more about FIT MASTER"
+                              target="_blank"
+                            >
+                              <button className="homeimgbtn1">CHAT NOW</button>
+                            </a>
+                          </div>
+                        </div>
 
-            {/* <h1>UG Diet</h1> */}
+                        <div class="col-lg-6 col-md-6   order-1 order-md-2 col-xs-12 ">
+                          <div class="bg_img">
+                            <img
+                              class="homeimages entered lazyloaded "
+                              src={HomeImg}
+                              alt="Coach Image"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className="sliderimage" src={Homeimgtwo} />
-          <div className="title" data-swiper-parallax="-300">
-            <h1>
-              Welcome to <br />
-              UG Diet
-            </h1>
+        </div>
+      </section>
 
-            {/* <h1>UG Diet</h1> */}
+      <div class="chat_withus chat_open">
+        <span class="sc-dkrFOg OAhur">
+          <h2 className="fitmasterhead">FiT Master</h2>
+          
+        </span>
+        <a
+          id="hero_cta_tablet_desktop-hero-cta-1"
+          class="sc-iveFHk dlqPeV sc-gikAfH sc-jIRcFI cQbzwU kHCrWL"
+          href="https://wa.me/917025040484?text= Hi! I was browsing the website blog and wanted to know more about FIT MASTER"
+          target="_blank"
+        >
+          <div height="16" width="16" class="sc-iJnaPW DueOT">
+            <picture class="sc-hLBbgP jbaWzu">
+              <img
+                class="sc-eDvSVe hzeEhC sc-cwSeag jYXUKf entered lazyloaded"
+                src={Wtspimg}
+                alt="whatsapp"
+                width="25"
+                height="25"
+                data-lazy-src="https://healthifyme.imgix.net/static/images/home_website/landing/icons/whatsapp-black.png"
+                data-ll-status="loaded"
+              />
+              <noscript>
+                <img
+                  class="sc-eDvSVe hzeEhC sc-cwSeag jYXUKf"
+                  src={Wtspimg}
+                  alt="whatsapp"
+                  width="16"
+                  height="16"
+                />
+              </noscript>
+            </picture>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className="sliderimage" src={Homeimgthree} />
-          <div className="title" data-swiper-parallax="-300">
-            <h1>
-              Welcome to <br />
-              UG Diet
-            </h1>
+          <span class="sc-dkrFOg gSBAsl">Chat With Us</span>
+        </a>
+      </div>
 
-            {/* <h1>UG Diet</h1> */}
+      {/* <div className="container">
+        <div className="mt-5">
+          <div className="row py-5">
+            <div className="col-lg-6 col-md-6 col-sm-12  order-2 order-md-1 col-xs-12 column">
+              <h1 className="homeheading"> GET HEALTHY WITH UG DIET</h1>
+              <p className="homeparagraph">
+                Start your journey towards better health with our 1-month
+                package for just ₹1000.
+                <br />
+                Experience the UG Diet difference now!
+              </p>
+              <div className="btndiv mt-3">
+                <a
+                  href="https://wa.me/917025040484?text= Hello I Saw UG DIET Website, i'm  interested to join with you!"
+                  target="_blank"
+                >
+                  <button className="homeimgbtn">CHAT NOW</button>
+                </a>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-12">
+              <img src={HomeImg} alt="/" className="Homesecoundimg" />
+            </div>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className="sliderimage" src={Homeimgfour} />
-          <div className="title" data-swiper-parallax="-300">
-            <h1>
-              Welcome to <br />
-              UG Diet
-            </h1>
-
-            {/* <h1>UG Diet</h1> */}
-          </div>
-        </SwiperSlide>{" "}
-        <SwiperSlide className="sliderimage">
-          <img className="sliderimage" src={Homeimgfive} />
-          <div className="title" data-swiper-parallax="-300">
-            <h1>
-              Welcome to <br />
-              UG Diet
-            </h1>
-            {/* <h1>UG Diet</h1> */}
-          </div>
-        </SwiperSlide>{" "}
-      </Swiper>
+        </div>
+      </div> */}
     </>
   );
 }
