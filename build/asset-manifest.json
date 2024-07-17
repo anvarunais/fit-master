@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fitmaster/static/css/main.3ef06f80.css",
-    "main.js": "/fitmaster/static/js/main.69d65795.js",
+    "main.js": "/fitmaster/static/js/main.e83ac33a.js",
     "static/media/about-img.jpg": "/fitmaster/static/media/about-img.c1b6a81ddc15cec2acdb.jpg",
     "static/media/service-img.jpg": "/fitmaster/static/media/service-img.87b59c4776ee3a7b48f4.jpg",
     "static/media/home-min.jpg": "/fitmaster/static/media/home-min.ba7610defa2b84ce206f.jpg",
@@ -20,10 +20,10 @@
     "static/media/track-food.png": "/fitmaster/static/media/track-food.8000c09a97d694cca680.png",
     "index.html": "/fitmaster/index.html",
     "main.3ef06f80.css.map": "/fitmaster/static/css/main.3ef06f80.css.map",
-    "main.69d65795.js.map": "/fitmaster/static/js/main.69d65795.js.map"
+    "main.e83ac33a.js.map": "/fitmaster/static/js/main.e83ac33a.js.map"
   },
   "entrypoints": [
     "static/css/main.3ef06f80.css",
-    "static/js/main.69d65795.js"
+    "static/js/main.e83ac33a.js"
   ]
 }
