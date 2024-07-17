@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/fitmaster/static/css/main.3ef06f80.css",
-    "main.js": "/fitmaster/static/js/main.e83ac33a.js",
-    "static/media/about-img.jpg": "/fitmaster/static/media/about-img.c1b6a81ddc15cec2acdb.jpg",
-    "static/media/service-img.jpg": "/fitmaster/static/media/service-img.87b59c4776ee3a7b48f4.jpg",
-    "static/media/home-min.jpg": "/fitmaster/static/media/home-min.ba7610defa2b84ce206f.jpg",
-    "static/media/aboutsecoundimg.jpg": "/fitmaster/static/media/aboutsecoundimg.bfb59cdacd8257f2c7b4.jpg",
-    "static/media/contact-us-min.jpg": "/fitmaster/static/media/contact-us-min.b8033937149502db3ffc.jpg",
-    "static/media/fitmaster-logo.png": "/fitmaster/static/media/fitmaster-logo.236de311b25e98e8165a.png",
-    "static/media/diet-1.png": "/fitmaster/static/media/diet-1.74eada0aaefc298d813b.png",
-    "static/media/diet-3.png": "/fitmaster/static/media/diet-3.9138d7a105c1d9e54852.png",
-    "static/media/diet-4.png": "/fitmaster/static/media/diet-4.42da051e5c5e32a21c0c.png",
-    "static/media/drink-img.png": "/fitmaster/static/media/drink-img.57118ab0f2c132e1a882.png",
-    "static/media/diet-5.png": "/fitmaster/static/media/diet-5.02c859bee2d822a493b3.png",
-    "static/media/diet-2.png": "/fitmaster/static/media/diet-2.68ccd1a43bd881cf35c9.png",
-    "static/media/diet-6.png": "/fitmaster/static/media/diet-6.a8f19a2229e1fba3cefa.png",
-    "static/media/success.png": "/fitmaster/static/media/success.cfe8e2fa781a6545d5f9.png",
-    "static/media/set-goal.png": "/fitmaster/static/media/set-goal.acdd66d85e2aa2c57563.png",
-    "static/media/track-food.png": "/fitmaster/static/media/track-food.8000c09a97d694cca680.png",
-    "index.html": "/fitmaster/index.html",
-    "main.3ef06f80.css.map": "/fitmaster/static/css/main.3ef06f80.css.map",
-    "main.e83ac33a.js.map": "/fitmaster/static/js/main.e83ac33a.js.map"
+    "main.css": "/fit-master/static/css/main.3ef06f80.css",
+    "main.js": "/fit-master/static/js/main.070045ec.js",
+    "static/media/about-img.jpg": "/fit-master/static/media/about-img.c1b6a81ddc15cec2acdb.jpg",
+    "static/media/service-img.jpg": "/fit-master/static/media/service-img.87b59c4776ee3a7b48f4.jpg",
+    "static/media/home-min.jpg": "/fit-master/static/media/home-min.ba7610defa2b84ce206f.jpg",
+    "static/media/aboutsecoundimg.jpg": "/fit-master/static/media/aboutsecoundimg.bfb59cdacd8257f2c7b4.jpg",
+    "static/media/contact-us-min.jpg": "/fit-master/static/media/contact-us-min.b8033937149502db3ffc.jpg",
+    "static/media/fitmaster-logo.png": "/fit-master/static/media/fitmaster-logo.236de311b25e98e8165a.png",
+    "static/media/diet-1.png": "/fit-master/static/media/diet-1.74eada0aaefc298d813b.png",
+    "static/media/diet-3.png": "/fit-master/static/media/diet-3.9138d7a105c1d9e54852.png",
+    "static/media/diet-4.png": "/fit-master/static/media/diet-4.42da051e5c5e32a21c0c.png",
+    "static/media/drink-img.png": "/fit-master/static/media/drink-img.57118ab0f2c132e1a882.png",
+    "static/media/diet-5.png": "/fit-master/static/media/diet-5.02c859bee2d822a493b3.png",
+    "static/media/diet-2.png": "/fit-master/static/media/diet-2.68ccd1a43bd881cf35c9.png",
+    "static/media/diet-6.png": "/fit-master/static/media/diet-6.a8f19a2229e1fba3cefa.png",
+    "static/media/success.png": "/fit-master/static/media/success.cfe8e2fa781a6545d5f9.png",
+    "static/media/set-goal.png": "/fit-master/static/media/set-goal.acdd66d85e2aa2c57563.png",
+    "static/media/track-food.png": "/fit-master/static/media/track-food.8000c09a97d694cca680.png",
+    "index.html": "/fit-master/index.html",
+    "main.3ef06f80.css.map": "/fit-master/static/css/main.3ef06f80.css.map",
+    "main.070045ec.js.map": "/fit-master/static/js/main.070045ec.js.map"
   },
   "entrypoints": [
     "static/css/main.3ef06f80.css",
-    "static/js/main.e83ac33a.js"
+    "static/js/main.070045ec.js"
   ]
 }
